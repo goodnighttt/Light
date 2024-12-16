@@ -638,7 +638,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2959467708922500008, guid: d7061d2ec501adb4da1e842bf1f2be57, type: 3}
 --- !u!114 &2004174780
@@ -653,8 +653,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15da3522dcbdbb7489d0db97374c6725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
-  rotationSpeed: 200
+  moveSpeed: 5
+  rotationSpeed: 1000
 --- !u!143 &2004174781
 CharacterController:
   m_ObjectHideFlags: 0
